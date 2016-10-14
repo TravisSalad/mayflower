@@ -3,7 +3,13 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+.header-overlay {
+  max-height: 750px;
+  background: rgba(0, 0, 0, 0.5);
+}
 body {
+  width: 100%;
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -107,7 +113,7 @@ fieldset[disabled] .btn-primary.active {
   font-weight: 700;
   border-radius: 3px;
   font-size: 18px;
-  padding: 20px 40px;
+  padding: 15px 35px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -224,7 +230,8 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('http://themocracy.com/wp-content/uploads/2016/07/Laundromats.jpg');
+  max-height: 750px;
+  background-image: url('http://cdn.fabricrenewal.netdna-cdn.com/wp-content/uploads/2014/02/slide3.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -242,7 +249,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 22px;
   margin-bottom: 25px;
   text-shadow: 2px 2px black;
@@ -251,14 +258,14 @@ header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 35px;
   line-height: 50px;
   margin-bottom: 25px;
   text-shadow: 2px 2px black;
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
